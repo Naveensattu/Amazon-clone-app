@@ -92,7 +92,7 @@ pipeline {
         }
         stage ("Git checkout") {
             steps {
-                git branch: 'main', url: 'https://github.com/yeshwanthlm/Prime-Video-Clone-Deployment.git'
+                git branch: 'main', url: 'https://github.com/Naveensattu/Amazon-clone-app.git'
             }
         }
         stage("Sonarqube Analysis "){
